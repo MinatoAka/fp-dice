@@ -87,28 +87,28 @@ if($login->error == 0){
 	$sal=trim(fgets(STDIN));
 	if($sal == 1){
 		$blk = $login->balance;
-		$bets = number_format(0.00001, 8);
+		$bets = number_format(0.001, 8);
 		$cb = $jps;
-		$wcmin = 45;
-		$wcmax = 50;
+		$wcmin = 20;
+		$wcmax = 60;
 		$sp = number_format(0.01, 5);
 		$pr = rand(1,2);
 	}
 	if($sal == 2){
 		$blk = $login->balance;
-		$bets = number_format(0.0001, 8);
+		$bets = number_format(0.003, 8);
 		$cb = $jps;
-		$wcmin = 45;
-		$wcmax = 50;
+		$wcmin = 20;
+		$wcmax = 60;
 		$sp = number_format(0.05, 5);
 		$pr = rand(1,2);
 	}
 	if($sal == 3){
 		$blk = $login->balance;
-		$bets = number_format(0.001, 8);
+		$bets = number_format(0.008, 8);
 		$cb = $jps;
-		$wcmin = 45;
-		$wcmax = 50;
+		$wcmin = 20;
+		$wcmax = 60;
 		$sp = number_format(0.1, 5);
 		$pr = rand(1,2);
 	}
@@ -116,8 +116,8 @@ if($login->error == 0){
 		$blk = $login->balance;
 		$bets = number_format(0.01, 8);
 		$cb = $jps;
-		$wcmin = 45;
-		$wcmax = 50;
+		$wcmin = 20;
+		$wcmax = 60;
 		$sp = number_format(0.8, 5);
 		$pr = rand(1,2);
 	}
