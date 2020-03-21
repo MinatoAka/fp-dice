@@ -5,4 +5,4 @@ This script for Multiply Doge on https://faucetpay.io/?r=73117
 
 <b/>RBS Terra on Youtube
 
-Source: https://www.youtube.com/watch?v=VbcR0zhVlwM&t=69s
+Source: https://www.youtube.com/watch?v=VbcR0zhVlwM
