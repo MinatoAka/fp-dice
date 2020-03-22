@@ -164,7 +164,7 @@ $send = "play=true&coin=".$coin."&client_seed=RUUFuGsc5lQPgMXdOVo&bet_amt=".$bet
 $ga = json_decode(dices($send, $coki),true);
 	if($ga['win'] == 1){
 		$pits = number_format($ga['balance'] - $blk, 8);
-		echo "WIN || Profit : ".$pits." {$coin} || Ballance : ".$ga['balance']." {$coin}\n";
+		echo "WIN	|| Profit : ".$pits." {$coin}	|| Ballance : ".$ga['balance']." {$coin}\n";
 		if($pits >= $sp){
 			echo "\nCongratulation Your Profit to Target\n\n";
 			echo "Press Enter To Play Again\nInput 1 For Change Bet Set";
@@ -179,7 +179,7 @@ $ga = json_decode(dices($send, $coki),true);
 	}
 	if($ga['win'] == 0){
 		$pits = number_format($ga['balance'] - $blk, 8);
-		echo "LOSE || Profit : ".$pits." {$coin} || Ballance : ".$ga['balance']." {$coin}\n";
+		echo "LOSE	|| Profit : ".$pits." {$coin}	|| Ballance : ".$ga['balance']." {$coin}\n";
 		if($pits >= $sp){
 			echo "\nCongratulation Your Profit to Target\n\n";
 			echo "Press Enter To Play Again\nInput 1 For Change Bet Set";
@@ -204,7 +204,7 @@ $ga = json_decode(dices($send, $coki),true);
 					$ga = json_decode(dices($send, $coki),true);
 					if($ga['win'] == 1){
 						$pits = number_format($ga['balance'] - $blk, 8);
-						echo "WIN || Profit : ".$pits." {$coin} || Ballance : ".$ga['balance']." {$coin}\n";
+						echo "WIN	|| Profit : ".$pits." {$coin}	|| Ballance : ".$ga['balance']." {$coin}\n";
 						if($pits >= $sp){
 							echo "\nCongratulation Your Profit to Target\n\n";
 							echo "Press Enter To Play Again\nInput 1 For Change Bet Set";
@@ -219,7 +219,7 @@ $ga = json_decode(dices($send, $coki),true);
 					}
 					if($ga['win'] == 0){
 						$pits = number_format($ga['balance'] - $blk, 8);
-						echo "LOSE || Profit : ".$pits." {$coin} || Ballance : ".$ga['balance']." {$coin}\n";
+						echo "LOSE	|| Profit : ".$pits." {$coin}	|| Ballance : ".$ga['balance']." {$coin}\n";
 						if($pits >= $sp){
 							echo "\nCongratulation Your Profit to Target\n\n";
 							echo "Press Enter To Play Again\nInput 1 For Change Bet Set";
