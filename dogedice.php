@@ -79,7 +79,7 @@ $ese = number_format((float)$login->balance +((70 / 100) * $login->balance) ,8);
 if($login->error == 0){
 	$blk = $login->balance;
 	system('clear');
-	echo "Lgoin Success....\n";
+	echo "Login Success....\n";
 	echo "Warning This Script Only DogeCoin\n";
 	echo "\nPlease Select Your Main Balance To Run This Script\n";
 	echo "1. 1-50 DogeCoin\n2. 60-100 DogeCoin\n3. 200-500 DogeCoin\n4. 700-1000 DogeCoin\n";
